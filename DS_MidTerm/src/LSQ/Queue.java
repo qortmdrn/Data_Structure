@@ -1,3 +1,4 @@
+package LSQ;
 public interface Queue<E> {
     public void clear();
     public void enqueue(E it);

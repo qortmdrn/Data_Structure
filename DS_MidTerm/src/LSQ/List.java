@@ -1,3 +1,4 @@
+package LSQ;
 public interface List<E> {
     public void clear();
     public void insert(E item);

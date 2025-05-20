@@ -1,3 +1,4 @@
+package LSQ;
 public interface Stack<E> {
     public void clear();
     public void push(E it);
