@@ -1,3 +1,4 @@
+package BinaryTree;
 // ADT for binary tree nodes
 public interface BinaryTreeNode<E> {
     // Return and set the element value

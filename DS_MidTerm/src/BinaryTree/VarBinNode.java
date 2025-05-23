@@ -1,3 +1,4 @@
+package BinaryTree;
 // Base class
 public interface VarBinNode {
     public boolean isLeaf();
