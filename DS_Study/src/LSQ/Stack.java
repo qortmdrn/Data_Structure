@@ -51,16 +51,10 @@ class LinkedStack<E> implements Stack<E> {
     private Node<E> top; // Top of stack
     private int size;    // Number of elements
 
-    public LinkedStack() {
-        top = null;
-        size = 0;
-    }
+    public LinkedStack() { top = null; size = 0; }
 
     @Override
-    public void clear() {
-        top = null;
-        size = 0;
-    }
+    public void clear() { top = null; size = 0; }
 
     @Override
     public void push(E it) {

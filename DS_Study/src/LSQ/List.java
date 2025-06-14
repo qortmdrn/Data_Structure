@@ -235,3 +235,36 @@ class LinkedList<E> implements List<E> {
 //        return item;
 //    }
 //}
+
+// Doubly Linked Lists
+//class DLink<E> {
+//    private E element;
+//    private DLink<E> next;
+//    private DLink<E> prev;
+//
+//    DLink(E it, DLink<E> p, DLink<E> n) { element = it; next = n; prev = p; }
+//    DLink(DLink<E> p, DLink<E> n) { prev = p; next = n; }
+//
+//    DLink<E> next() { return next; }
+//    DLink<E> prev() { return prev; }
+//    DLink<E> setNext(DLink<E> nextVal) { return next = nextVal; }
+//    DLink<E> setPrev(DLink<E> prevVal) { return prev = prevVal; }
+//
+//    E element() { return element; }
+//    E setElement(E it) { return element = it; }
+//
+//    public void insert(E it) {
+//        curr.setNext(new DLink<E>(it, curr, curr.next()));
+//        curr.next().next().setPrev(curr.next());
+//        cnt++;
+//    }
+//
+//    public E remove() {
+//        if (curr.next() == tail) return null;
+//        E it = curr.next().element();
+//        curr.next().next().setPrev(curr);
+//        curr.setNext(curr.next().next());
+//        cnt--;
+//        return it;
+//    }
+//}
